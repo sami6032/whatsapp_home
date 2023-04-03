@@ -418,19 +418,106 @@ padding-top: 125px;
 
 footer{
 width: 1349px;
-height: 506px;
+height: 600px;
 background-color: #111b21;
 position: absolute;
 top: 6250px;
 z-index: -99999;
 }
 
-.footel{
-    
-margin-left: 150px;
+.foot1{
+width: auto;
+padding-top: 80px;
+color: white;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
 
 }
+
+.foot1 div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 50px;
+}
+
 
 .vv1{
 padding-top: 150px;
+width: 320px;
 }
+
+.footalign{
+    display: flex;
+    justify-content: space-evently;
+    text-align: center;
+    padding-bottom: 80px;
+    padding-top: 20px;
+}
+
+.foot1 div span{
+    padding-top: 20px;
+}
+
+.ppt{
+
+    font-size: 80%;
+}
+
+.foot2{
+    width: 80%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 110px;
+}
+
+.sociali{
+    display: inherit;
+    padding:10px;
+    margin-top: -10px;
+    margin-left: -160px;
+}
+
+.sociali span{
+    width: auto;
+    padding:10px;
+    border: 1px solid white;
+    border-radius: 100%;
+    margin: 10px;
+    font-family: inherit;
+}
+
+.french{
+    color: white;
+    border: 3px solid white;
+    border-radius: 100px;
+    font-size: 16px;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    text-decoration: none;
+}
+
+hr{
+    width: 85%;
+    opacity: 60%;
+    margin-bottom: 60px;
+    margin-top: -40px;
+}
+
+.conutil{
+
+    margin-top: 20px;
+}
+
+.conutil span{
+
+    margin-right: 100px;
+    font-size: 12px;
+ }
